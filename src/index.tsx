@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Provider } from "unstated";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Provider>
     <React.StrictMode>
       <App />
-    </React.StrictMode>
-  </Provider>,
+    </React.StrictMode>,
   document.getElementById('root')
 );
 

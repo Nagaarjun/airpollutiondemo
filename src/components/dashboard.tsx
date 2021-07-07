@@ -81,6 +81,10 @@ export const DashBoard: React.FC<RouteProps> = (props: RouteProps) => {
           Welcome to Air Quality Index
         </Title>
         <CenterDiv>
+          <Row>
+            <Col>City</Col>
+            <Col>AQI index</Col>
+          </Row>
           {Object.keys(msg).map((key, i) => {
             return(
               <Row key={i}>
